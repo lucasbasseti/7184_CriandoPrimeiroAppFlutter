@@ -27,7 +27,7 @@ class App extends StatelessWidget {
   }
 }
 
-// Stateless é um Widget SEM estado (Página Inicial).
+// Stateful é um Widget COM estado. (Página Inicial).
 class HomePage extends StatefulWidget {
 
   var items = new List<Item>();
